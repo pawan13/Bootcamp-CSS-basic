@@ -1,0 +1,66 @@
+/* p{
+    color:blue;
+} */
+
+/* #fifth{
+    color: purple;
+}
+
+.pg{
+    color: aqua;
+} */
+
+section{
+    background: black;
+    color: white;
+}
+
+/* descendant (space) */
+section p{
+    color: green;
+}
+
+/* Child(>) */
+section > p{
+    color: green;
+    text-decoration: line-through;
+}
+
+/* adjacent(+) */
+section + p{
+    font-size: 24px;
+}
+
+/* siblings (~)*/
+section ~ p{
+    font-size: 20px;
+    background: blue;
+}
+section div p{
+    color: red;
+}
+
+/* attributes selector */
+[href]{
+    color:red;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* pseudo element selector */
+p::first-letter{
+    font-size: 32px;
+}
+
+P::first-line{
+    font-weight: bolder;
+}
+
+/* pseudo class selector */
+a:hover{
+    font-size: 32px;
+}
+
+p:nth-child(odd){
+    background-color: red;
+}
